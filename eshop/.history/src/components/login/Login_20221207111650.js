@@ -1,0 +1,32 @@
+import { StorefrontOutlined } from '@material-ui/icons';
+import { useState } from 'react'
+import { Link } from 'react-router-dom';
+import './login.scss'
+
+const Login = () => {
+    const [userName, setUserName] = useState('');
+    const [password, setPassword] = useState('');
+    return (
+        <div className='login'>
+            <Link to='/' style={{ textDecoration: "none" }}>
+                <div className='logo'>
+                    <StorefrontOutlined className='icon' fontsize='large' />
+                    <h2 className='title'>eSHOP</h2>
+                </div>
+            </Link>
+            <div className='loginContainer'>
+                <h1>Sign-IN</h1>
+                <form>
+                    <h5>Username</h5>
+                    <input type="text" value={userName} name="userName" placeholder="username" />
+                    <h5>Password</h5>
+                    <input type="password" value={password} name="password" placeholder="password" />
+                    <button type="submit">Sign_In</button>
+                </form>
+            </div>
+
+        </div>
+    )
+}
+
+export default Login

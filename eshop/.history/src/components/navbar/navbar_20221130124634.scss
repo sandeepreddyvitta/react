@@ -1,0 +1,13 @@
+.navBar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0;
+    .headerLogo{
+        display: flex;
+        
+    }
+}

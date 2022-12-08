@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: white;
+    height: 100vh;
+    .logo{
+        display: flex;
+        align-items: center;
+        margin: 30px 0px;
+
+    }
+    .loginContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

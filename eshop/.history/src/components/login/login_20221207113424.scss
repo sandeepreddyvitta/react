@@ -1,0 +1,12 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .loginContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

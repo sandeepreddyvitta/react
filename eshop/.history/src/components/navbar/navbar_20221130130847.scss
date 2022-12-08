@@ -1,0 +1,59 @@
+.navBar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0;
+    .headerLogo{
+        display: flex;
+        align-items:center;
+        color:#ff9f00;
+        margin: 0px 25px;
+        .storeIcon{
+            margin-right: 10px;
+        }
+        .title{
+            text-decoration: none;
+            color:white;
+            border: 0;
+        }
+    }
+    .searchBar{
+        display: flex;
+        flex:1;
+        align-items:center;
+        border-radius: 24px;
+        margin: 0 10px;
+        .searchBarInput{
+            
+            height: 12px;
+            padding: 10px;
+            border: none;
+            width: 80%;
+        }
+        .searchIcon{
+            height:22px;
+            padding: 5px;
+            background-color:#ff9f00;
+        }
+    }
+    .userItems{
+        display: flex;
+        justify-content: space-evenly;
+        .headerItem{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 10px;
+            color:white;
+            .nav_itemOne{
+                font-size: 10px;
+            }
+            .nav_itemTwo{
+                font-size: 13px;
+                font-weight: 800;
+            }
+        }
+    }
+}
