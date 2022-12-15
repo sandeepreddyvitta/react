@@ -1,0 +1,11 @@
+.movie{
+    background-color: #141414;
+    height: 100vh;
+    color:white;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+}
